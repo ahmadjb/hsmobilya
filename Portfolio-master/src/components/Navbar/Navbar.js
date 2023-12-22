@@ -86,10 +86,10 @@ const Navbar = () => {
                     <Routes />
                 </div>
                 <div className="selectTheme">
-                    <div className="selectMode" onClick={handleModeChange}>
+                    {/*<div className="selectMode" onClick={handleModeChange}>
                         <div id="lightModeBtn" style={{ color: "white" }}><LightModeIcon /></div>
                         <div id="darkModeBtn" style={{ display: "none" }}><DarkModeIcon /></div>
-                    </div>
+                    </div>*/}
 
                     <div className="colorSelector" onClick={handleColorSelector} style={{ backgroundColor: activeColor }}>
                         {
